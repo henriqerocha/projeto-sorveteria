@@ -1,4 +1,7 @@
-.container{
+main{
+    background-color: #f9db79;
+}
+.container-home{
     display: flex;
     width: 100%;
     max-width: 1080px;
@@ -14,11 +17,14 @@
     margin: 0 15px;
     font-size: 1.3em;
     text-decoration: none;
-    color: #000;
+    color: #B57837;
     padding: 15px;
+    border-radius: 10px;
 }
-
 .link-menu:hover{
-    background-color: #000;
+    background-color: #B57837;
     color: #fff;
+}
+.logo img{
+    width: 100px;
 }

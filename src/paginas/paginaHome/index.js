@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 import './style.css';
 
 const Home = () =>(
-    <main className="container">
+    <main>
+        <div className="container-home">
         <header className="topo">
             <div className="logo">
                 <img src="./assets/logo.png"></img>
@@ -16,6 +17,7 @@ const Home = () =>(
                 </ul>
             </nav>
         </header>
+        </div>
     </main>
 );
 
